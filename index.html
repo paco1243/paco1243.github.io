@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <section class="menu1">
+        <a href="#formulario">
+            <img src="istockphoto-1317649178-612x612-removebg-preview.png" alt="">
+        </a>
+    </section>
+
+    <section class="centroab"></section>
+    <section class="abajo"></section>
+
+    <section id="formulario" class="formu">
+        <form action="insertar.php" method="post" class="formulario">
+            <br>
+            <h1 class="h1">Regístrate</h1>
+            <input type="text" name="nombre" id="nombre" placeholder="Tu nombre">
+            <input type="text" name="apellido" id="apellido" placeholder="Tu apellido">
+            <input type="number" name="edad" id="edad" placeholder="Tu edad">
+            <input type="email" name="correo" id="correo" placeholder="Tu correo">
+            <input type="text" name="direccion" id="direccion" placeholder="Tu direccion">
+            <input type="number" name="telefono" id="telefono" placeholder="Tu numero de telefono">
+            <br>
+            <button type="submit" name="registrarse" class="btn btn-success">Registrarse</button>
+            <br>
+        </form>
+    </section>
+
+    <a id="mostrarFormulario"></a>
+</body>
+</html>
